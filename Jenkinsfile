@@ -1,3 +1,4 @@
+#Building from share libraries
 @Library('Shared') _ 
 
 dockerFullPipeline(
