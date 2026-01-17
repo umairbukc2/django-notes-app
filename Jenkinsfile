@@ -1,8 +1,8 @@
 @Library('Shared') _ 
 
 dockerFullPipeline(
-    repoUrl:   'https://github.com/umairbukc2/django-notes-app.git',
-    imageName: 'mumairask750/django-notes-app','latest'
-    credsId:   'docker-hub-750',
-    branch:    'main'
+    repoUrl:   'https://github.com/umairbukc2/django-notes-app.git', // <--- Comma zaroori hai
+    imageName: 'mumairask750/django-notes-app',                       // <--- Comma zaroori hai
+    credsId:   'docker-hub-750',                                      // <--- Comma zaroori hai
+    branch:    'main'                                                 // <--- Last line pe comma nahi chahiye
 )
