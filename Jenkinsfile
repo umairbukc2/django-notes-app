@@ -1,4 +1,4 @@
-// Building from share libraries   <-- YE SAHI HAI 
+// Building from share libraries   
 @Library('Shared') _ 
 
 dockerFullPipeline(
